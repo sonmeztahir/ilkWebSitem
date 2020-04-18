@@ -11,4 +11,4 @@ def user(request):
 
 
 def testler(request):
-    return HttpResponse('<b>Test SAyfasına Hoş Geldiniz<b/>')
+    return HttpResponse('<b>Test Sayfasına Hoş Geldiniz<b/>')
