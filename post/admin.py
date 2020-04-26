@@ -1,12 +1,8 @@
 from django.contrib import admin
-
-# Register your models here.
-#from post.models import Post
-from .models import Post
+from .models import Post  # veya from post.models import Post
 
 
 class PostAdmin(admin.ModelAdmin):
-
     list_display = ['title', 'publishing_date']
     list_display_links = ['publishing_date']
     list_filter = ['publishing_date']
